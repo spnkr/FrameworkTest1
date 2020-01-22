@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD5F018F23D8F62100E4588F /* test1.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5F018D23D8F62100E4588F /* test1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD5F019623D8F64000E4588F /* NiceLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F019523D8F64000E4588F /* NiceLogger.swift */; };
+		DD5F01A823D8F9AE00E4588F /* test1spnkr.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5F01A623D8F9AE00E4588F /* test1spnkr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD5F01AF23D8F9BF00E4588F /* NiceLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F01AE23D8F9BF00E4588F /* NiceLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD5F018A23D8F62100E4588F /* test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5F018D23D8F62100E4588F /* test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
-		DD5F018E23D8F62100E4588F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD5F019523D8F64000E4588F /* NiceLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceLogger.swift; sourceTree = "<group>"; };
+		DD5F01A323D8F9AE00E4588F /* test1spnkr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = test1spnkr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5F01A623D8F9AE00E4588F /* test1spnkr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1spnkr.h; sourceTree = "<group>"; };
+		DD5F01A723D8F9AE00E4588F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5F01AE23D8F9BF00E4588F /* NiceLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD5F018723D8F62100E4588F /* Frameworks */ = {
+		DD5F01A023D8F9AE00E4588F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,80 +29,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD5F018023D8F62100E4588F = {
+		DD5F019923D8F9AE00E4588F = {
 			isa = PBXGroup;
 			children = (
-				DD5F018C23D8F62100E4588F /* test1 */,
-				DD5F018B23D8F62100E4588F /* Products */,
+				DD5F01A523D8F9AE00E4588F /* test1spnkr */,
+				DD5F01A423D8F9AE00E4588F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DD5F018B23D8F62100E4588F /* Products */ = {
+		DD5F01A423D8F9AE00E4588F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD5F018A23D8F62100E4588F /* test1.framework */,
+				DD5F01A323D8F9AE00E4588F /* test1spnkr.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD5F018C23D8F62100E4588F /* test1 */ = {
+		DD5F01A523D8F9AE00E4588F /* test1spnkr */ = {
 			isa = PBXGroup;
 			children = (
-				DD5F018D23D8F62100E4588F /* test1.h */,
-				DD5F018E23D8F62100E4588F /* Info.plist */,
-				DD5F019523D8F64000E4588F /* NiceLogger.swift */,
+				DD5F01A623D8F9AE00E4588F /* test1spnkr.h */,
+				DD5F01A723D8F9AE00E4588F /* Info.plist */,
+				DD5F01AE23D8F9BF00E4588F /* NiceLogger.swift */,
 			);
-			path = test1;
+			path = test1spnkr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DD5F018523D8F62100E4588F /* Headers */ = {
+		DD5F019E23D8F9AE00E4588F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5F018F23D8F62100E4588F /* test1.h in Headers */,
+				DD5F01A823D8F9AE00E4588F /* test1spnkr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DD5F018923D8F62100E4588F /* test1 */ = {
+		DD5F01A223D8F9AE00E4588F /* test1spnkr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD5F019223D8F62100E4588F /* Build configuration list for PBXNativeTarget "test1" */;
+			buildConfigurationList = DD5F01AB23D8F9AE00E4588F /* Build configuration list for PBXNativeTarget "test1spnkr" */;
 			buildPhases = (
-				DD5F018523D8F62100E4588F /* Headers */,
-				DD5F018623D8F62100E4588F /* Sources */,
-				DD5F018723D8F62100E4588F /* Frameworks */,
-				DD5F018823D8F62100E4588F /* Resources */,
+				DD5F019E23D8F9AE00E4588F /* Headers */,
+				DD5F019F23D8F9AE00E4588F /* Sources */,
+				DD5F01A023D8F9AE00E4588F /* Frameworks */,
+				DD5F01A123D8F9AE00E4588F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = test1;
-			productName = test1;
-			productReference = DD5F018A23D8F62100E4588F /* test1.framework */;
+			name = test1spnkr;
+			productName = test1spnkr;
+			productReference = DD5F01A323D8F9AE00E4588F /* test1spnkr.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD5F018123D8F62100E4588F /* Project object */ = {
+		DD5F019A23D8F9AE00E4588F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Will Jessop";
 				TargetAttributes = {
-					DD5F018923D8F62100E4588F = {
+					DD5F01A223D8F9AE00E4588F = {
 						CreatedOnToolsVersion = 11.3;
 						LastSwiftMigration = 1130;
 					};
 				};
 			};
-			buildConfigurationList = DD5F018423D8F62100E4588F /* Build configuration list for PBXProject "test1" */;
+			buildConfigurationList = DD5F019D23D8F9AE00E4588F /* Build configuration list for PBXProject "test1spnkr" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,18 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = DD5F018023D8F62100E4588F;
-			productRefGroup = DD5F018B23D8F62100E4588F /* Products */;
+			mainGroup = DD5F019923D8F9AE00E4588F;
+			productRefGroup = DD5F01A423D8F9AE00E4588F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD5F018923D8F62100E4588F /* test1 */,
+				DD5F01A223D8F9AE00E4588F /* test1spnkr */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD5F018823D8F62100E4588F /* Resources */ = {
+		DD5F01A123D8F9AE00E4588F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,18 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD5F018623D8F62100E4588F /* Sources */ = {
+		DD5F019F23D8F9AE00E4588F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5F019623D8F64000E4588F /* NiceLogger.swift in Sources */,
+				DD5F01AF23D8F9BF00E4588F /* NiceLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DD5F019023D8F62100E4588F /* Debug */ = {
+		DD5F01A923D8F9AE00E4588F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		DD5F019123D8F62100E4588F /* Release */ = {
+		DD5F01AA23D8F9AE00E4588F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +262,7 @@
 			};
 			name = Release;
 		};
-		DD5F019323D8F62100E4588F /* Debug */ = {
+		DD5F01AC23D8F9AE00E4588F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -272,14 +272,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = test1/Info.plist;
+				INFOPLIST_FILE = test1spnkr/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willj.test1spnkr;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -288,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		DD5F019423D8F62100E4588F /* Release */ = {
+		DD5F01AD23D8F9AE00E4588F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -298,14 +298,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = test1/Info.plist;
+				INFOPLIST_FILE = test1spnkr/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willj.test1spnkr;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD5F018423D8F62100E4588F /* Build configuration list for PBXProject "test1" */ = {
+		DD5F019D23D8F9AE00E4588F /* Build configuration list for PBXProject "test1spnkr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD5F019023D8F62100E4588F /* Debug */,
-				DD5F019123D8F62100E4588F /* Release */,
+				DD5F01A923D8F9AE00E4588F /* Debug */,
+				DD5F01AA23D8F9AE00E4588F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD5F019223D8F62100E4588F /* Build configuration list for PBXNativeTarget "test1" */ = {
+		DD5F01AB23D8F9AE00E4588F /* Build configuration list for PBXNativeTarget "test1spnkr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD5F019323D8F62100E4588F /* Debug */,
-				DD5F019423D8F62100E4588F /* Release */,
+				DD5F01AC23D8F9AE00E4588F /* Debug */,
+				DD5F01AD23D8F9AE00E4588F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DD5F018123D8F62100E4588F /* Project object */;
+	rootObject = DD5F019A23D8F9AE00E4588F /* Project object */;
 }
