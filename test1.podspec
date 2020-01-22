@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/test1"
+
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/test1.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "https://github.com/spnkr/FrameworkTest1/blob/master/test1.zip?raw=true" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,13 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+
+  spec.homepage     = "https://github.com/spnkr/FrameworkTest1"
+  spec.license      = { :type => "MIT", :file => "license" }
+  spec.author             = { "spnkr" => "wjessop@gmail.com" }
+  spec.ios.deployment_target = '8.0'
+  spec.ios.vendored_frameworks = 'test1.framework'
+
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
