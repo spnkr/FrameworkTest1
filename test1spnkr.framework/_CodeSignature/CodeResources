@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Uhjxfh2yG6ovykrRtKLwSkeq7xs=
+		ANT8UBU/QBCElBZWYDy4/mOllHc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		vu0v4mitYatZuOm6f8b/XdE8Hk4=
 		</data>
-		<key>Modules/test1spnkr.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		a4YaOrDF5e7sRvqYIQpGyCzt+eU=
+		PgpStPhrfx18FMKhhJNNKI27wCk=
 		</data>
-		<key>Modules/test1spnkr.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UQG2sTTmvxiLua0U+q3OrKTK6iY=
+		wsfgoWX8ibzwrJLtINTUHsVNenk=
 		</data>
-		<key>Modules/test1spnkr.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		a4YaOrDF5e7sRvqYIQpGyCzt+eU=
+		PgpStPhrfx18FMKhhJNNKI27wCk=
 		</data>
-		<key>Modules/test1spnkr.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UQG2sTTmvxiLua0U+q3OrKTK6iY=
+		wsfgoWX8ibzwrJLtINTUHsVNenk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -60,32 +60,32 @@
 			1ZGtawZbhAE+uLuMFFeNUxyUkKQE1J3lAATPuF0/P0c=
 			</data>
 		</dict>
-		<key>Modules/test1spnkr.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wm8o7Rrg1DP9JRsJ0yUnD5VNetBROhUi4qBuVbE7pDI=
+			85drtSM5WkThdCHCjDJccrzcagtw+g2IdnTlhmfgzoU=
 			</data>
 		</dict>
-		<key>Modules/test1spnkr.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ah1TLydwrOrRd8O4G5DJKDCXFErsp6rcEZIOIXbl0sY=
+			eD/NdWGsJEl3B6mOTsPIsLTu5mmqJVpY1MMJGs6BxyQ=
 			</data>
 		</dict>
-		<key>Modules/test1spnkr.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wm8o7Rrg1DP9JRsJ0yUnD5VNetBROhUi4qBuVbE7pDI=
+			85drtSM5WkThdCHCjDJccrzcagtw+g2IdnTlhmfgzoU=
 			</data>
 		</dict>
-		<key>Modules/test1spnkr.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/test1spnkr.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ah1TLydwrOrRd8O4G5DJKDCXFErsp6rcEZIOIXbl0sY=
+			eD/NdWGsJEl3B6mOTsPIsLTu5mmqJVpY1MMJGs6BxyQ=
 			</data>
 		</dict>
 	</dict>
