@@ -1,0 +1,11 @@
+framework module test1spnkr {
+  umbrella header "test1spnkr.h"
+
+  export *
+  module * { export * }
+}
+
+module test1spnkr.Swift {
+    header "test1spnkr-Swift.h"
+    requires objc
+}

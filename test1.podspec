@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "test1"
+  spec.name         = "test1spnkr"
   spec.version      = "0.0.1"
   spec.summary      = "Fancy logging"
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/spnkr/FrameworkTest1/blob/master/test1.zip?raw=true" }
+  spec.source       = { :http => "https://github.com/spnkr/FrameworkTest1/blob/master/test1spnkr.zip?raw=true" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "license" }
   spec.author             = { "spnkr" => "wjessop@gmail.com" }
   spec.ios.deployment_target = '8.0'
-  spec.ios.vendored_frameworks = 'test1.framework'
+  spec.ios.vendored_frameworks = 'test1spnkr.framework'
 
   spec.exclude_files = "Classes/Exclude"
 
